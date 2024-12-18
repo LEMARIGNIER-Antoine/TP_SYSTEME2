@@ -10,4 +10,6 @@ Sur wireshark, en vérifiant au port 1069, on voit bien que que la reception d'1
 
 Maintenant, pour plusieurs paquets, on rajoute un do while, on voit bien les différents block ![Capture d’écran du 2024-12-18 15-02-40](https://github.com/user-attachments/assets/102dbe88-832b-42ff-ad3b-7970add035f8)
 
+En ayant ceci, nosu avons fini la 4.C
+
 
