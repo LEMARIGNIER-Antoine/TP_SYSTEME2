@@ -4,5 +4,5 @@
 
 #ifndef PUTTFTP_H
 #define PUTTFTP_H
-int puttftp(int argc, char **argv);
+int main(int argc, char **argv);
 #endif //PUTTFTP_H

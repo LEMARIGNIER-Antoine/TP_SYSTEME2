@@ -4,5 +4,8 @@ project(clientTFTP C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(clientTFTP
-        gettftp.c
-        gettftp.h)
+        #gettftp.c
+        #gettftp.h
+        puttftp.c
+        puttftp.h
+)

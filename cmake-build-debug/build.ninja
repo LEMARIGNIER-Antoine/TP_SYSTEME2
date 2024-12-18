@@ -49,8 +49,8 @@ cmake_ninja_workdir = /home/grimont/CLionProjects/clientTFTP/cmake-build-debug/
 
 build cmake_object_order_depends_target_clientTFTP: phony || .
 
-build CMakeFiles/clientTFTP.dir/gettftp.c.o: C_COMPILER__clientTFTP_unscanned_Debug /home/grimont/CLionProjects/clientTFTP/gettftp.c || cmake_object_order_depends_target_clientTFTP
-  DEP_FILE = CMakeFiles/clientTFTP.dir/gettftp.c.o.d
+build CMakeFiles/clientTFTP.dir/puttftp.c.o: C_COMPILER__clientTFTP_unscanned_Debug /home/grimont/CLionProjects/clientTFTP/puttftp.c || cmake_object_order_depends_target_clientTFTP
+  DEP_FILE = CMakeFiles/clientTFTP.dir/puttftp.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/clientTFTP.dir
   OBJECT_FILE_DIR = CMakeFiles/clientTFTP.dir
@@ -63,7 +63,7 @@ build CMakeFiles/clientTFTP.dir/gettftp.c.o: C_COMPILER__clientTFTP_unscanned_De
 #############################################
 # Link the executable clientTFTP
 
-build clientTFTP: C_EXECUTABLE_LINKER__clientTFTP_Debug CMakeFiles/clientTFTP.dir/gettftp.c.o
+build clientTFTP: C_EXECUTABLE_LINKER__clientTFTP_Debug CMakeFiles/clientTFTP.dir/puttftp.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/clientTFTP.dir
   POST_BUILD = :
