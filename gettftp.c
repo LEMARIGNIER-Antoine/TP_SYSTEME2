@@ -27,7 +27,7 @@ void main(int argc, char **argv) {  // Changement du type de retour à void
     hints.ai_socktype = SOCK_DGRAM;  // Socket UDP
 
     struct addrinfo *res;
-    if (getaddrinfo(argv[1], "69", &hints, &res) != 0) { // we are gonna use the port 69 and see it with wireshark
+    if (getaddrinfo(argv[1], "1069", &hints, &res) != 0) { // we are gonna use the port 1069 and see it with wireshark
         perror("getaddrinfo");
         return;
     }
