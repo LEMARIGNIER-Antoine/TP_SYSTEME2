@@ -1,15 +1,4 @@
-#include <stdio.h>
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <netdb.h>
-#include <string.h>
-#include <unistd.h>
-#include <stdlib.h>
-
 #include "gettftp.h"
-
-#define BUFFER_SIZE 1024
-#define DATA_SIZE 512 // Taille maximale des données dans un paquet DATA
 
 void main(int argc, char **argv) {  // Changement du type de retour à void
     if (argc != 3) {
