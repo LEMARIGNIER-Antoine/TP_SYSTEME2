@@ -18,7 +18,7 @@ Maintenant, pour plusieurs paquets, on rajoute un do while, on voit bien les dif
 
 En ayant ceci, nosu avons fini la 4.C
 
-Maintenant, faisons requête en écriture (WRQ) 
-J'ai essayé de créer un fichier vide et d'écrire dedans mais je n'ai pas réussi à aboutir avec la requête demandé.
+Maintenant, pour la requête en écriture (WRQ),
+j'ai essayé de créer un fichier vide et d'écrire dedans mais je n'ai pas réussi à aboutir avec la requête demandé.
 
 
