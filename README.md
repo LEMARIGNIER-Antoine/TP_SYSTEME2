@@ -1,6 +1,10 @@
 au départ, j'appelais gettftp.c depuis un main mais en fait, c'est un fichier à part et donc, il doit être changé directement dans le cmakeKist
 
-Il faut bien regarder comment la requête RRQ est construite et après, on additionne, les différents élements de la requête
+Clairement, j'aurais du découper en plusieurs fonctions ce que je faisais mais surement pas manque de vision du tp, je  n'ai que 2 fichiers vraiment différents, get et put donc à refaire, je définirais mieux mes actions.
+
+Le début du tp est très ressemblant au td donc je m'en suis très fortement inspiré.
+
+Après, il faut bien regarder comment la requête RRQ est construite et après, on additionne, les différents élements de la requête
 ![Capture d’écran du 2024-12-11 14-58-33](https://github.com/user-attachments/assets/85c80d41-e630-4330-87c1-f2eae7341d6a)
 
 Sur wireshark, en vérifiant au port 1069, on voit bien que que la reception d'1 block fonctionne. J'avais pris ones1024.
@@ -13,5 +17,6 @@ Maintenant, pour plusieurs paquets, on rajoute un do while, on voit bien les dif
 En ayant ceci, nosu avons fini la 4.C
 
 Maintenant, faisons requête en écriture (WRQ) 
+J'ai essayé de créer un fichier vide et d'écrire dedans mais je n'ai pas réussi à aboutir avec la requête demandé.
 
 
