@@ -5,7 +5,7 @@ Clairement, j'aurais du découper en plusieurs fonctions ce que je faisais mais 
 Questions 1 à 3 :
 Le début du tp est très ressemblant au td donc je m'en suis très fortement inspiré.
 
-Question 4
+Question 4 :
 Il faut bien regarder comment la requête RRQ est construite et après, on additionne, les différents élements de la requête
 ![Capture d’écran du 2024-12-11 14-58-33](https://github.com/user-attachments/assets/85c80d41-e630-4330-87c1-f2eae7341d6a)
 
